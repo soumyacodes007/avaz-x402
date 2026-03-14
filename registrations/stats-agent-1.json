@@ -1,0 +1,19 @@
+{
+  "name": "StatsAgent1",
+  "description": "Statistical analytics agent providing data-driven statistical summaries with numbers, growth rates, and comparative analysis.",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "http://localhost:4023/task",
+      "version": "0.1.0"
+    }
+  ],
+  "x402Support": true,
+  "capability": "statistical-analytics",
+  "active": true,
+  "metadata": {
+    "agentType": "statistical-analytics",
+    "price": "0.001",
+    "currency": "USD"
+  }
+}

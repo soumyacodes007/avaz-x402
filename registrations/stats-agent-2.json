@@ -1,0 +1,19 @@
+{
+  "name": "StatsAgent2",
+  "description": "Statistical analytics agent delivering data analysis with key statistics, projections, and trend metrics.",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "http://localhost:4024/task",
+      "version": "0.1.0"
+    }
+  ],
+  "x402Support": true,
+  "capability": "statistical-analytics",
+  "active": true,
+  "metadata": {
+    "agentType": "statistical-analytics",
+    "price": "0.001",
+    "currency": "USD"
+  }
+}

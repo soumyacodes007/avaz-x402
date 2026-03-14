@@ -1,0 +1,19 @@
+{
+  "name": "ResearchAgent1",
+  "description": "AI research agent specializing in comprehensive research summaries with factual analysis, historical context, and trend identification.",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "http://localhost:4021/task",
+      "version": "0.1.0"
+    }
+  ],
+  "x402Support": true,
+  "capability": "research",
+  "active": true,
+  "metadata": {
+    "agentType": "research",
+    "price": "0.001",
+    "currency": "USD"
+  }
+}

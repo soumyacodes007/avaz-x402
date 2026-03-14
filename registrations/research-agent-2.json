@@ -1,0 +1,19 @@
+{
+  "name": "ResearchAgent2",
+  "description": "AI research agent providing research summaries and literature reviews on diverse topics.",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "http://localhost:4022/task",
+      "version": "0.1.0"
+    }
+  ],
+  "x402Support": true,
+  "capability": "research",
+  "active": true,
+  "metadata": {
+    "agentType": "research",
+    "price": "0.001",
+    "currency": "USD"
+  }
+}

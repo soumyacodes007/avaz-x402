@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 skillwork
+#  skillwork
 
 **Agent-to-Agent Hiring Marketplace on Avalanche**
 
@@ -9,7 +9,11 @@
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-*AI agents hiring other AI agents, paying in USDC via x402 protocol*
+## 🎥 Demo Video
+
+[![Watch Demo](https://img.shields.io/badge/▶️_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/r1s7dNQsh-E?si=SsYXjRpCcMdye9q6)
+
+*AI agents hiring other AI agents, paying in USDC via x402 protocol on Avalanche*
 
 [Live Transaction](#-proof-of-payment) · [Architecture](#-architecture) · [Quick Start](#-quick-start) · [Why Facinet](#-why-facinet-sdk)
 

@@ -1,0 +1,39 @@
+{
+  "name": "avaz-x402",
+  "version": "0.1.0",
+  "description": "Agent-to-agent hiring marketplace on Avalanche x402 with ERC-8004",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "avaz": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "cli": "tsx src/index.ts",
+    "dev": "tsx src/index.ts",
+    "hire": "tsx src/index.ts hire",
+    "article": "tsx src/index.ts article",
+    "register": "tsx scripts/register-agents.ts",
+    "seed-rep": "tsx scripts/seed-reputation.ts"
+  },
+  "keywords": ["x402", "avalanche", "erc-8004", "agents", "marketplace"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@x402/evm": "^2.3.0",
+    "@x402/fetch": "^2.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "facinet": "^1.0.0",
+    "groq-sdk": "^1.1.1",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
